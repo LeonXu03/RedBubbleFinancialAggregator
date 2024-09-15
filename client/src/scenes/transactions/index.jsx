@@ -69,7 +69,7 @@ const Transactions = () => {
             "& .MuiDataGrid-cell": {
                 borderBottom: "none"
             },
-            "& .MuiDataGrid-columnHeader": {
+            "& .MuiDataGrid-columnHeaders": {
                 backgroundColor: theme.palette.background.alt,
                 color: theme.palette.secondary[100],
                 borderBottom: "none"
@@ -93,18 +93,18 @@ const Transactions = () => {
                 rowsPerPageOptions={[20, 50, 100]}
                 pagination
                 page={page}
-                pageSize={5}
+                pageSize={pageSize}
                 paginationMode="server"
                 sortingMode="server"
                 onPageChange={(newPage) => setPage(newPage)}
                 onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
                 onSortModelChange={(newSortModel) => setSort(...newSortModel)}
-                slots={{
-                    toolbar: DataGridCustomToolbar
-                }}
+
+                components={{Toolbar: DataGridCustomToolbar}}
                 componentsProps={{
                     toolbar: {searchInput, setSearchInput, setSearch}
                 }}
+
             />
         </Box>
     </Box>);
