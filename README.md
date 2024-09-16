@@ -2,7 +2,7 @@
 
 A working, breathing dashboard designed to supercharge your RedBubble data analytics. Featuring an all-encompassing dashboard, micro and macro performance metrics, and product revenue breakdown. 
 
-A beautiful blend of line charts, pie charts, and sheets to simplify and visualize your data and evaluate your businesses' performance. 
+A beautiful blend of line charts, pie charts, and sheets to simplify and visualize your data to evaluate your business' performance. 
 
 Get the most out of your business with this RedBubble dashboard.
 
