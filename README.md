@@ -14,7 +14,14 @@ Hosted on Render [here](https://redbubble-admin-dashboard-backend.onrender.com/)
 Note: Render's free hosting can take up to a minute to deploy the app. Please wait for the dashboard to load, or check out the recorded demo :) 
 
 ## Demo
-TODO
+
+https://github.com/user-attachments/assets/4325b8c1-9ecb-480f-8484-4a7d99ee6872
+
+
+
+https://github.com/user-attachments/assets/6f2a3fee-2efc-4865-9bc9-cc99b99a1561
+
+
 
 ## Tech Stack / Library
 - MERN stack
